@@ -10,4 +10,4 @@ def average(grade_01: float, grade_02: float) -> float:
     return (grade_01 + grade_02) / 2
 
 
-print(f"Média: {average(grade_01, grade_02):.2f}")
+print(f"Média: {average(grade_01, grade_02):.1f}")
