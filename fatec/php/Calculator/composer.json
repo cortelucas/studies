@@ -1,0 +1,18 @@
+{
+    "name": "cortelucas/calculator",
+    "require": {
+        "monolog/monolog": "2.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lucas Corte",
+            "email": "corte1994.lc@gmail.com"
+        }
+    ]
+}
