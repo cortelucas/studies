@@ -10,4 +10,7 @@ def multiplication_table(number: int) -> None:
         print(f"{number} x {i} = {number * i}")
 
 
+print("- Tabuada -")
+print("-" * 12)
 multiplication_table(number)
+print("-" * 12)
