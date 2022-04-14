@@ -323,7 +323,7 @@
   <section class="limiter">
     <div class="container-login">
       <div class="wrap-login">
-        <form class="login-form" method="post">
+        <form class="login-form" method="post" action="/">
           <span class="login-form__title">Login</span>
 
           <div class="login-form__wrap_input">
