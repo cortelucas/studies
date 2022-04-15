@@ -50,5 +50,6 @@ class CalculatorController
         Logger::logger("Operação inválida", "error");
         break;
     }
+    require "../src/Views/Calculator/index.php";
   }
 }

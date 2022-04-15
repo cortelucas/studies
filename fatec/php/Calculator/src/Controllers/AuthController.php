@@ -17,18 +17,13 @@ class AuthController
     $password = $_POST['password'];
 
     try {
-      session_start();
       if (isset($user, $password)) {
         if ($user == 'admin' && $password == 'admin') {
+          session_start();
           $_SESSION['user'] = $user;
           $_SESSION['password'] = $password;
           Logger::logger("O usuário $user logou no sistema", "info");
-          if ($_SESSION['logged'] == true) {
-            header('Location: /');
-          } else {
-            echo 'Erro ao logar';
-            header('Location: /login');
-          }
+          CalculatorController::index();
         } else {
           throw new \Exception('Usuário ou senha inválidos');
         }
@@ -47,11 +42,11 @@ class AuthController
     try {
       session_start();
       session_destroy();
-      Logger::logger("O usuário $user logou no sistema", "info");
-      header('Location: /login');
+      Logger::logger("O usuário $user saiu do sistema", "info");
+      AuthController::index();
     } catch (\Exception $e) {
       echo $e->getMessage();
-      Logger::logger("O usuário $user tentou logar no sistema", "error");
+      Logger::logger("O usuário $user tentou sair Do sistema", "error");
     } finally {
       die();
     }
