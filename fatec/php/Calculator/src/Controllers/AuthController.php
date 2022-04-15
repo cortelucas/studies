@@ -23,10 +23,11 @@ class AuthController
           $_SESSION['user'] = $user;
           $_SESSION['password'] = $password;
           Logger::logger("O usuário $user logou no sistema", "info");
-          if ($_SESSION['user']) {
+          if ($_SESSION['logged'] == true) {
             header('Location: /');
           } else {
             echo 'Erro ao logar';
+            header('Location: /login');
           }
         } else {
           throw new \Exception('Usuário ou senha inválidos');

@@ -20,36 +20,35 @@ class CalculatorController
     switch ($operator) {
       case '+':
         $result = $number_01 + $number_02;
-        echo $result;
+        echo "<span>O resultado da soma:" . $result . "</span>";
         Logger::logger("Foi realizada a operação de soma", "info");
         break;
       case '-':
         $result = $number_01 - $number_02;
-        echo $result;
+        echo "<span>O resultado da subtração:" . $result . "</span>";
         Logger::logger("Foi realizada a operação de subtração", "info");
         break;
       case '*':
         $result = $number_01 * $number_02;
-        echo $result;
+        echo "<span>O resultado da multiplicação:" . $result . "</span>";
         Logger::logger("Foi realizada a operação de multiplicação", "info");
         break;
       case '/':
         if ($number_02 == 0) {
           $result = 'Divisão por zero';
-          echo $result;
+          echo "<span>Erro! divisão por:" . $result . "</span>";
           Logger::logger("Foi realizada a operação de divisão por zero", "error");
         } else {
           $result = $number_01 / $number_02;
-          echo $result;
+          echo "<span>O resultado da divisão:" . $result . "</span>";
           Logger::logger("Foi realizada a operação de divisão", "info");
         }
         break;
       default:
         $result = 'Operação inválida!';
-        echo $result;
+        echo "<span>Erro! Operação inválida:" . $result . "</span>";
         Logger::logger("Operação inválida", "error");
         break;
     }
-    require '../src/Views/Calculator/result.php';
   }
 }

@@ -12,6 +12,8 @@ $route->get("/login", "App\Controllers\AuthController::index");
 $route->get("/", "App\Controllers\CalculatorController::index");
 $route->post("/", "App\Controllers\CalculatorController::calculate");
 
+$route->get("/logout", "App\Controllers\AuthController::logout");
+
 $result = $route->handler();
 if (!$result) {
   http_response_code(404);

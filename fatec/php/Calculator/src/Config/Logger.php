@@ -10,7 +10,7 @@ class Logger
   public static function logger($msg, $type)
   {
     $log = new \Monolog\Logger('app');
-    $log->pushHandler(new StreamHandler(dirname(__FILE__) . '../../Logs/logs.txt'));
+    $log->pushHandler(new StreamHandler(dirname(__FILE__) . '/../../Logs/logs.txt'));
     switch ($type) {
       case 'info':
         $log->info($msg);
