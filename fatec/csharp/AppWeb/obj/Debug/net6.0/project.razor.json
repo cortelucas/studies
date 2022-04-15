@@ -16298,8 +16298,23 @@
   "RootNamespace": "AppWeb",
   "Documents": [
     {
+      "FilePath": "/home/cortelucas/dev/studies/fatec/csharp/AppWeb/Views/Inventories/Edit.cshtml",
+      "TargetPath": "Views\\Inventories\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/cortelucas/dev/studies/fatec/csharp/AppWeb/Views/Shared/_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/cortelucas/dev/studies/fatec/csharp/AppWeb/Views/Clients/Edit.cshtml",
+      "TargetPath": "Views\\Clients\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/cortelucas/dev/studies/fatec/csharp/AppWeb/Views/Products/Create.cshtml",
+      "TargetPath": "Views\\Products\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16308,8 +16323,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/cortelucas/dev/studies/fatec/csharp/AppWeb/Views/Clients/Delete.cshtml",
+      "TargetPath": "Views\\Clients\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/cortelucas/dev/studies/fatec/csharp/AppWeb/Views/Shared/_LoginPartial.cshtml",
       "TargetPath": "Views\\Shared\\_LoginPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/cortelucas/dev/studies/fatec/csharp/AppWeb/Views/Inventories/Index.cshtml",
+      "TargetPath": "Views\\Inventories\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16328,13 +16353,88 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/cortelucas/dev/studies/fatec/csharp/AppWeb/Views/Clients/Create.cshtml",
+      "TargetPath": "Views\\Clients\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/cortelucas/dev/studies/fatec/csharp/AppWeb/Views/Suppliers/Delete.cshtml",
+      "TargetPath": "Views\\Suppliers\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/cortelucas/dev/studies/fatec/csharp/AppWeb/Views/Clients/Details.cshtml",
+      "TargetPath": "Views\\Clients\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/cortelucas/dev/studies/fatec/csharp/AppWeb/Views/Inventories/Details.cshtml",
+      "TargetPath": "Views\\Inventories\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/cortelucas/dev/studies/fatec/csharp/AppWeb/Views/Shared/Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/home/cortelucas/dev/studies/fatec/csharp/AppWeb/Views/Clients/Index.cshtml",
+      "TargetPath": "Views\\Clients\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/cortelucas/dev/studies/fatec/csharp/AppWeb/Views/Inventories/Delete.cshtml",
+      "TargetPath": "Views\\Inventories\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/cortelucas/dev/studies/fatec/csharp/AppWeb/Views/Suppliers/Edit.cshtml",
+      "TargetPath": "Views\\Suppliers\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/cortelucas/dev/studies/fatec/csharp/AppWeb/Views/Suppliers/Create.cshtml",
+      "TargetPath": "Views\\Suppliers\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/cortelucas/dev/studies/fatec/csharp/AppWeb/Views/Products/Details.cshtml",
+      "TargetPath": "Views\\Products\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/cortelucas/dev/studies/fatec/csharp/AppWeb/Views/Products/Delete.cshtml",
+      "TargetPath": "Views\\Products\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/cortelucas/dev/studies/fatec/csharp/AppWeb/Views/Products/Index.cshtml",
+      "TargetPath": "Views\\Products\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/cortelucas/dev/studies/fatec/csharp/AppWeb/Views/Inventories/Create.cshtml",
+      "TargetPath": "Views\\Inventories\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/home/cortelucas/dev/studies/fatec/csharp/AppWeb/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/cortelucas/dev/studies/fatec/csharp/AppWeb/Views/Suppliers/Details.cshtml",
+      "TargetPath": "Views\\Suppliers\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/cortelucas/dev/studies/fatec/csharp/AppWeb/Views/Suppliers/Index.cshtml",
+      "TargetPath": "Views\\Suppliers\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/cortelucas/dev/studies/fatec/csharp/AppWeb/Views/Products/Edit.cshtml",
+      "TargetPath": "Views\\Products\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
